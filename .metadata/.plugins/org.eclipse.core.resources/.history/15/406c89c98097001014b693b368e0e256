@@ -1,0 +1,21 @@
+package java_practice;
+
+import java.util.Scanner;
+
+public class Prg_3 {
+      public static void main(String[] args) {
+    	  int a = 17;
+    	  int b = 18;
+    	  int sum1 = a+b;
+    	  System.out.println("sum of a and b is" +sum1);
+    	  
+    	  Scanner sc = new Scanner(System.in);
+    	  int c = sc.nextInt();
+    	  int d = sc.nextInt();
+    	  int sum2 = c+d;
+    	  System.out.println("sum of c and d is" +sum2);
+    			 
+    	  
+    	  
+      }
+}
